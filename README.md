@@ -12,6 +12,7 @@
 [![coc](https://img.shields.io/badge/Contributor%20Covenant-ff69b4.svg)](https://github.com/scribe-org/Scribe-Data/blob/main/.github/CODE_OF_CONDUCT.md)
 [![mastodon](https://img.shields.io/badge/Mastodon-6364FF.svg?logo=mastodon&logoColor=ffffff)](https://wikis.world/@scribe)
 [![matrix](https://img.shields.io/badge/Matrix-000000.svg?logo=matrix&logoColor=ffffff)](https://matrix.to/#/#scribe_community:matrix.org)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Faxif0%2FScribe-Data.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Faxif0%2FScribe-Data?ref=badge_shield)
 
 ### Wikidata, Wiktionary and Wikipedia language data extraction
 
@@ -297,3 +298,7 @@ Many thanks to all the [Scribe-Data contributors](https://github.com/scribe-org/
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <br>
 </div>
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Faxif0%2FScribe-Data.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Faxif0%2FScribe-Data?ref=badge_large)
