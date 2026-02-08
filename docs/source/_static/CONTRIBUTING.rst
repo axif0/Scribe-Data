@@ -124,12 +124,12 @@ The development environment for Scribe-Data can be installed via the following s
     # Windows:
     .venv\Scripts\activate.bat  # .venv\Scripts\activate.ps1 (PowerShell)
 
-After activating the virtual environment, set up `pre-commit <https://pre-commit.com/>`_ by running:
+After activating the virtual environment, set up `prek <https://prek.j178.dev/>`_ by running:
 
 .. code-block:: bash
 
-    pre-commit install
-    # uv run pre-commit run --all-files  # lint and fix common problems in the codebase
+    prek install
+    # uv run prek run --all-files  # lint and fix common problems in the codebase
 
 .. note::
    If you change dependencies in ``pyproject.toml``, regenerate the lock file with the following command:
@@ -139,7 +139,7 @@ After activating the virtual environment, set up `pre-commit <https://pre-commit
       uv lock  # refresh uv.lock for reproducible installs
 
 .. note::
-   If you are having issues with pre-commit and want to send along your changes regardless, you can ignore the pre-commit hooks via the following:
+   If you are having issues with prek and want to send along your changes regardless, you can ignore the pre-commit hooks via the following:
 
    .. code-block:: bash
 
@@ -164,7 +164,7 @@ If you face any issues, consider reinstalling Scribe-data by running the followi
 Testing
 -------
 
-In addition to the `pre-commit <https://pre-commit.com/>`_ hooks that are set up during the `Development environment`_ section, Scribe-Data also includes a testing suite that should be ran before all pull requests and subsequent commits. Please run the following in the project root:
+In addition to the `prek <https://prek.j178.dev/>`_ hooks that are set up during the `Development environment`_ section, Scribe-Data also includes a testing suite that should be ran before all pull requests and subsequent commits. Please run the following in the project root:
 
 .. code-block:: bash
 

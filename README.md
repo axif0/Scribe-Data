@@ -267,11 +267,11 @@ source .venv/bin/activate
 .venv\Scripts\activate.bat  # .venv\Scripts\activate.ps1 (PowerShell)
 ```
 
-After activating the virtual environment, set up [pre-commit](https://pre-commit.com/) by running:
+After activating the virtual environment, set up [prek](https://prek.j178.dev/) by running:
 
 ```bash
-pre-commit install
-# uv run pre-commit run --all-files  # lint and fix common problems in the codebase
+prek install
+# uv run prek run --all-files  # lint and fix common problems in the codebase
 ```
 
 > [!NOTE]
